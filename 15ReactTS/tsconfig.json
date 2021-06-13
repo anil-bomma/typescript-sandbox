@@ -1,0 +1,16 @@
+{
+    "compilerOptions" : {
+        "target" : "esnext", // complie my code latest es-lint version
+        "module": "es6", // use es6 import and exports
+        "strict": true, // null is wrong
+        "noEmit": true, 
+        "isolatedModules" : true,
+        "esModuleInterop": true,
+        "jsx": "react", // I have jsx code 
+        "sourceMap": true, // sourcemap generation for debugging,
+        "moduleResolution": "Node", // enable to read json
+        "resolveJsonModule": true, // enable to read json
+        "plugins": [{ "name": "typescript-plugin-css-modules" }]
+    },
+    "include": ["./src/**/*"],
+}

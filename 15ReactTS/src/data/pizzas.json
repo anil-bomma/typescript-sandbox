@@ -1,0 +1,27 @@
+[
+    {
+        "id" :1,
+        "name": "Pizza 1",
+        "description": "desc pizza 1",
+        "price": 14.99
+    },
+    {
+        "id" :2,
+        "name": "Pizza 2",
+        "description": "desc pizza 2",
+        "price": 24.99
+    },
+    {
+        "id" :3,
+        "name": "Pizza 3",
+        "description": "desc pizza 3",
+        "price": 3.99,
+        "specialOffer": true
+    },
+    {
+        "id" :4,
+        "name": "Pizza 4",
+        "description": "desc pizza 4",
+        "price": 44.99
+    }
+]
